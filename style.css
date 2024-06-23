@@ -84,3 +84,81 @@ header nav .branding{
     line-height: 1.9;
     margin-bottom: 2rem;
 }
+
+section{
+    padding: 6rem 0;
+}
+
+.about .left img{
+    height: 450px;
+}
+
+.about .right h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.about .right h1 span{
+    color: var(--primary);
+}
+
+.about .right h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.about .right p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.about .social {
+    display: flex;
+}
+
+.about .social a{
+    background: var(--secondary);
+    color: var(--light);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all 300ms ease;
+}
+
+.about .social .website:hover{
+    background: rgb(108, 108, 108);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--ternary);
+}
+
+.about .social .facebook:hover{
+    background: rgb(24, 119, 242);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--ternary);
+}
+
+.about .social .pinterest:hover{
+    background: rgb(230, 0, 35);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--ternary);
+}
+
+.about .social .twitter:hover{
+    background: var(--primary);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--ternary);
+}
+
+.about .social .instagram:hover{
+    background: rgb(250,126,30);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px var(--ternary);
+}
