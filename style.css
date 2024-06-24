@@ -405,3 +405,54 @@ section.works .container .card-wrapper .card img{
     height: 100%;
     width: 100%;
 }
+
+section.blog{
+    background: var(--secondary);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    padding-bottom: 15rem;
+}
+
+section.blog .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.blog .container .card-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+section.blog .container .card-wrapper .card{
+    width: 300px;
+    background: var(--pure);
+}
+
+section.blog .container .card-wrapper .card .card-content{
+    padding: 1.5rem 1rem;
+    padding-bottom: 2rem;
+}
+
+section.blog .container .card-wrapper .card .card-content h4{
+    margin-bottom: 0.5rem;
+}
+
+section.blog .container .card-wrapper .card .card-content h6{
+    color: var(--ternary);
+    margin-bottom: 0.5rem;
+}
+
+section.blog .container .card-wrapper .card .card-content p{
+    margin-bottom: 0.5rem;
+    color: var(--ternary);
+}
+
+section.blog .container .card-wrapper .card .card-content a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+section.blog .container .card-wrapper .card img{
+    width: 300px;
+}
